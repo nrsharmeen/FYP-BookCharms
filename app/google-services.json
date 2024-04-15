@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "701954909848",
+    "firebase_url": "https://bookcharms-a48d3-default-rtdb.firebaseio.com",
+    "project_id": "bookcharms-a48d3",
+    "storage_bucket": "bookcharms-a48d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701954909848:android:8a4f040edd2d10480fd2ed",
+        "android_client_info": {
+          "package_name": "com.example.bookcharms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo838JJ3aA5aRyFny_WV_OLQwVVon4AF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

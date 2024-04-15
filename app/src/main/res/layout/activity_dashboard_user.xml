@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEDAF1"
+    android:orientation="vertical"
+    tools:context=".DashboardUser">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/homepagetoolbar"
+        android:layout_width="413dp"
+        android:layout_height="79dp"
+        android:background="@drawable/shape_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/preferencespg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="READER PREFERENCES"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="412dp"
+        android:layout_height="607dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepagetoolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Genres"
+                android:layout_marginTop="60dp"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/edubtn"
+                android:layout_width="194dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#61ACA1"
+                android:fontFamily="monospace"
+                android:text="Education"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nonficbtn"
+                android:layout_width="194dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#C169CC"
+                android:fontFamily="monospace"
+                android:text="Non-Fiction"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ficbtn"
+                android:layout_width="194dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#CF5E6E"
+                android:fontFamily="monospace"
+                android:text="Fiction"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:fontFamily="serif"
+                android:text="Languages"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/malaybtn"
+                android:layout_width="194dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#C5559C"
+                android:fontFamily="monospace"
+                android:text="MALAY"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/englishbtn"
+                android:layout_width="194dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#DF975E"
+                android:fontFamily="monospace"
+                android:text="ENGLISH"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
